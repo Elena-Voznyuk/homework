@@ -26,7 +26,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 
 //Задача 21
-/*
+
 void Coordinats(int x1, int y1, int z1, int x2, int y2, int z2)
 {
  double distance = Math.Sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2) + (z1 - z2)*(z1 - z2));
@@ -45,10 +45,10 @@ int y_coordinate_b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input your z-coordinate of B");
 int z_coordinate_b = Convert.ToInt32(Console.ReadLine());
 Coordinats(x_coordinate_a,y_coordinate_a, z_coordinate_a, x_coordinate_b, y_coordinate_b, z_coordinate_b);  
-*/
+
 
 //Задача 23
-/*void Cube(int n)
+void Cube(int n)
 {
 int current_i = 1;
 while (current_i <= n)
@@ -62,4 +62,3 @@ Console.Write("\b\b.");
 Console.WriteLine("Input your number N:");
 int number_N = Convert.ToInt32(Console.ReadLine());
 Cube(number_N);
-*/ 
